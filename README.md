@@ -25,7 +25,7 @@ Project yang dibangun untuk keperluan tugas akhir
 - nodemon
 - sha256
 
-  ## Developer
-  - Aditiya Ramadhan Saputra
-  - Al Farissi
-  - Osvari Arsalan
+## Developer
+- Aditiya Ramadhan Saputra
+- Al Farissi
+- Osvari Arsalan
