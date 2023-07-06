@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="icon" href="../media/unsri.png" type="image/icon type">
+    <link rel="stylesheet" href="../media/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light cl-1 shadow-lg">
+        <a class="navbar-brand mr-2 fw-500 fw-bold"  href="/" style="margin-left: 1rem; ">Digital Signature</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link black fw-bold" href="/">Tandatangan Digital</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link black fw-bold" href="/verify">Verifikasi </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link black fw-bold" href="/about">Informasi </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="kotak cl-1 mb-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5 pt-5 fw-bold text-body-emphasis">Tanda Tangan Digital</h1>
+            <div class="col-md-12 mx-auto pt-3">
+              <p class="lead mb-4 fw-normal mx-3">
+               Metode kriptografi yang digunakan untuk menjaga keaslian dan integritas dokumen dalam lingkungan digital
+              </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5 rounded" style="background-color: #99a98fc7;">
+        <div class="row text-center mb-5">
+            <h1 class="fw-bold">Cara Menggunakan Aplikasi</h1>
+        </div>
+        <div class="row text-center mb-3">
+            <h3>Membuat Tanda Tangan Digital</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_1.jpg" class="bd-placeholder-img card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Langkah pertama yaitu memilih file yang akan ditandatangani dengan cara menekan tombol telusuri
+                        </p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_2.jpg" class="bd-placeholder-img card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Selanjutnya memilih nilai p dan q dengan cara input dengan keyboard atau dengan menekan tombol bangkitkan
+                        </p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_3.jpg" class="bd-placeholder-img card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Langkah terakhir yaitu menekan tombol tandatangani untuk membuat tanda tangan digital
+                        </p>
+                    </div>
+                 </div>
+            </div>
+
+        </div>
+
+        <div class="row text-center my-3">
+            <h3>Verifikasi Dokumen Digital</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_4.jpg" alt="" class="bd-placeholder-img card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Memilih dokumen yang akan diverifikasi keasliannya
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_5.jpg" alt="" class="bd-placeholder-img card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Memilih file tanda tangan digital dokumen yang dipilih
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                    <img src="../media/ss_6.jpg" alt="" class="bd-placeholder-img card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">
+                        Memilih file kunci tanda tangan digital dokumen yang dipilih
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mx-auto mt-3">
+                    <div class="card shadow-lg">
+                        <img src="../media/ss_7.jpg" alt="" class="bd-placeholder-img card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">
+                            Menekan tombol verifikasi yang kemudian akan menampilkan pesan apakah dokumen tersebut valid
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 shadow-lg rounded" style="background-color: #99a98fc7;">
+        <div class="row text-center">
+            <h1 class="fw-bold">Pengembang</h1>
+            <div class="col-md-4">
+                <div class="foto-1 text-center">
+                    <div class="foto-body mt-2">
+                        <h5 class="fw-bold">Pembimbing 1</h5>
+                        <p>Al Farissi, M.Comp., Sc.<br> NIP. 198512152014041001</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="foto-1 text-center">
+                    <div class="foto-body mt-2">
+                        <h5 class="fw-bold">Peneliti</h5>
+                        <p>Aditiya Ramadhan Saputra<br>NIM. 09021181924003</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="foto-1 text-center">
+                    <div class="foto-body mt-2">
+                        <h5 class="fw-bold">Pembimbing 2</h5>
+                        <p>Osvari Arsalan, S.Kom., M.Kom.<br>NIP. 198806282018031001</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 cl-2">
+        <div class="container">
+          <p class="text-center my-auto text-muted">Aditiya Ramadhan Saputra - 09021181924003</p>
+        </div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+color pallete
+
+#99A98F
+#C1D0B5
+#D6E8DB
+#FFF8DE
