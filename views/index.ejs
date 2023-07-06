@@ -129,14 +129,14 @@
     }
 
     function getPrime(){
-        let nilai = getRndInteger(2,1000);
+        let nilai = getRndInteger(2,500);
         let dapet = true
         let i = 1;
         while(dapet){
             if(isPrime(nilai)){
                 dapet = false;
             }else{
-                nilai = getRndInteger(2,1000);
+                nilai = getRndInteger(2,500);
             }
             i++;
         }
