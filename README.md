@@ -24,3 +24,8 @@ Project yang dibangun untuk keperluan tugas akhir
 - multer
 - nodemon
 - sha256
+
+  ## Developer
+  - Aditiya Ramadhan Saputra
+  - Al Farissi
+  - Osvari Arsalan
